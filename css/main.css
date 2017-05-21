@@ -1,0 +1,48 @@
+body{
+  text-align: center;
+}
+.box{
+  display: inline-block;
+  height: 60px;
+  width: 45%;
+}
+
+.black{
+  background-color: black;
+}
+.purple{
+  background-color: purple;
+}
+.blue{
+  background-color: blue;
+}
+.teal{
+  background-color: teal;
+}
+
+@media (max-width: 600px){
+  .purple{
+    display: none;
+  }
+  .blue{
+    display: none;
+  }
+
+}
+
+@media (min-width: 1000px){
+  .black{
+    width: 100%;
+  }
+  .purple{
+    width: 100%;
+  }
+  .blue{
+    width: 100%;
+  }
+  .teal{
+    width: 100%;
+  }
+
+
+}
